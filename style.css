@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(9, 9, 9);
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+.head {
+   
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    color: whitesmoke;
+   
+    text-decoration: underline;
+}
+.button{
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+
+    color: whitesmoke;
+
+}
+
+.image {
+
+    text-align: center;
+}
+
+.image img {
+    height: 460px;
+    width: 460px;
+    object-fit: contain;
+    /* border: 2px solid white; */
+    border-radius: 4px;
+
+}
+#next{
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ border: 2px solid whitesmoke;
+
+ padding: 5px 8px;
+ background-color: aliceblue;
+ color:black;
+border-radius: 6px;
+ font-weight: 300;
+ cursor: pointer;
+}
